@@ -74,11 +74,19 @@ date_formats:
   project:             '%Y'
   projects_group_by:   '%Y'
   resume:              '%b %Y'
-
-
+ 
 # PRO Version
 # ---------------------------------------------------------------------------------------
 # If you don't own the PRO version of Hydejack, modifying these will have no effect.
+
+hydejack:
+  dark_mode:
+  dynamic: true
+  sunrise: 6
+  sunset:  18
+  icon:    true
+  always:  false
+
 
 tinyletter:
   title:               Newsletter
