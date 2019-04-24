@@ -19,11 +19,11 @@ google-drive:
 facebook:
   name: Facebook
   icon: icon-facebook
-  prepend: 'https://facebook.com/root.metehan/'
+  prepend: 'https://facebook.com/'
 instagram:
   name: Instagram
   icon: icon-instagram
-  prepend: 'https://instagram.com/metehan.py'
+  prepend: 'https://instagram.com/'
 whatsapp:
   name: WhatsApp
   icon: icon-whatsapp
@@ -37,7 +37,7 @@ telegram:
 twitter:
   name: Twitter
   icon: icon-twitter
-  prepend: 'https://twitter.com/root_metehan/'
+  prepend: 'https://twitter.com/'
 vine:
   name: Vine
   icon: icon-vine
