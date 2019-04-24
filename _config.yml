@@ -19,7 +19,7 @@ baseurl: "m3t3h4n.github.io"
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Metehan Özdeniz
+title: "Metehan Özdeniz"
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
