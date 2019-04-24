@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Metehan Özdeniz
+  email:             metehan_ozdeniz@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -33,20 +33,20 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
-    # email:           <mail@domain.tld>
+    twitter:         root_metehan
+    github:          m3t3h4n
+    email:           metehan_ozdeniz@outlook.com
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        root.metehan
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         UC4twrxQZvxvc4rL4tTLYu9g
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       metehan.py
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -74,8 +74,8 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Metehan Özdeniz
+  email:             metehan_ozdeniz@outlook.com
   about:             |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -83,8 +83,8 @@ author2:
 
     Open `_data/authors.yml` to edit this text.
   picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
+  twitter:           root_metehan
+  github:            m3t3h4n
   accent_color:      '#268bd2'
   accent_image:
     background:      '#202020'

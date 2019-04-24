@@ -1,6 +1,6 @@
 # This file contains meta data for various social media sites
 email:
-  name: Email
+  name: metehan_ozdeniz@outlook.com
   icon: icon-mail
   prepend: 'mailto:'
 amazon:
@@ -19,11 +19,11 @@ google-drive:
 facebook:
   name: Facebook
   icon: icon-facebook
-  prepend: 'https://facebook.com/'
+  prepend: 'https://facebook.com/root.metehan/'
 instagram:
   name: Instagram
   icon: icon-instagram
-  prepend: 'https://instagram.com/'
+  prepend: 'https://instagram.com/metehan.py'
 whatsapp:
   name: WhatsApp
   icon: icon-whatsapp
@@ -37,7 +37,7 @@ telegram:
 twitter:
   name: Twitter
   icon: icon-twitter
-  prepend: 'https://twitter.com/'
+  prepend: 'https://twitter.com/root_metehan/'
 vine:
   name: Vine
   icon: icon-vine

@@ -2,7 +2,7 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "Metehan Özdeniz"
   label: "Programmer"
   picture: "/assets/icons/icon.png"
   email: ""
@@ -26,7 +26,7 @@ basics:
     region: "California"
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
+      username: "root_metehan"
       url: ""
     - network: "LinkedIn"
       username: "Richard Hendricks"
