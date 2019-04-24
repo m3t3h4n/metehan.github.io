@@ -76,6 +76,9 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              5
 paginate_path:         /blog/page-:num/
 
+paginate: 5
+paginate_path: '/page-:num/'
+
 
 # Customizaton
 # ========================================================================================
@@ -271,6 +274,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
+  - jekyll-paginate
 
 # Theme
 # ---------------------------------------------------------------------------------------
