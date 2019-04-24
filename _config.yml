@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: "m3t3h4n.github.io"
+url: "https://m3t3h4n.github.io"
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -12,7 +12,7 @@ url: "m3t3h4n.github.io"
 # Use the empty string '' otherwise.
 # For GitHub project sites, this is usually the name of the project,
 # e.g. `/hydejack`.
-baseurl: "m3t3h4n.github.io"
+baseurl: "https://m3t3h4n.github.io"
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
@@ -275,7 +275,7 @@ plugins:
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 # remote_theme: qwtel/hydejack@gem
 
 # SEO Tag
