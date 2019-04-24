@@ -49,9 +49,9 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Metehan
+  - title:             Blog
     url:               /hydejack/
-  - title:             Hyde
+  - title:             Projeler
     url:               /hyde/
   - title:             Documentation
     url:               /docs/
