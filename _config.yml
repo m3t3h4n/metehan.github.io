@@ -42,6 +42,7 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
+  picture:             /assets/img/blog/steve-harvey.jpg
   name:                Metehan Özdeniz
   email:               metehan_ozdeniz@outlook.com
   # Used by `jekyll-seo-tag`:
@@ -275,6 +276,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-titles-from-headings
   - jekyll-paginate
+  - jekyll-avatar
 
 # Theme
 # ---------------------------------------------------------------------------------------
