@@ -79,14 +79,6 @@ date_formats:
 # ---------------------------------------------------------------------------------------
 # If you don't own the PRO version of Hydejack, modifying these will have no effect.
 
-hydejack:
-  dark_mode:
-  dynamic: true
-  sunrise: 6
-  sunset:  18
-  icon:    true
-  always:  false
-
 
 tinyletter:
   title:               Newsletter
