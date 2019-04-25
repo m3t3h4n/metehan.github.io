@@ -19,7 +19,7 @@ google-drive:
 facebook:
   name: Facebook
   icon: icon-facebook
-  prepend: 'https://facebook.com/root.metehan'
+  prepend: 'https://facebook.com/'
 instagram:
   name: Instagram
   icon: icon-instagram

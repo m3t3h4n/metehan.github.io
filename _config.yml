@@ -45,11 +45,11 @@ author:
   name:                Metehan Özdeniz
   email:               metehan_ozdeniz@outlook.com
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  twitter:             root_metehan
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
+  - title:             Examplee
     url:               /example/
   - title:             Documentation
     url:               https://hydejack.com/docs/
