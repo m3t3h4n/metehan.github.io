@@ -3,8 +3,8 @@
 # You can change `author1` to your shortname.
 author1:
   # Replace <...> with your own (remove the < >)
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Metehan Özdeniz
+  email:             metehan_ozdeniz@outlook.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -17,30 +17,30 @@ author1:
 
   # This photo will be used in the about section.
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/icons/icon2.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
+      1x:            /assets/icons/icon2.png
       2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
-    twitter:         jekyllrb
-    github:          qwtel/hydejack
+    twitter:         root_metehan
+    github:          m3t3h4n
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           metehan_ozdeniz@outlook.com
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        root.metehan
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         UC4twrxQZvxvc4rL4tTLYu9g
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       metehan.py
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
