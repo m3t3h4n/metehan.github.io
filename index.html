@@ -1,7 +1,0 @@
----
-layout: blog
-title: Blog
-description: >
-  Şahsıma ait zırvalar...
-cover: true
----
