@@ -42,8 +42,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Metehan Özdeniz
+  email:               metehan_ozdeniz@outlook.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
