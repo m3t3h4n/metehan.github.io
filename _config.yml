@@ -24,14 +24,14 @@ title:                 Metehan Özdeniz
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
+  "Şahsıma ait zırvalar...".
   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
   Open `_config.yml` to edit this text.
 
 # A shorter description for the sidebar.
 tagline:               >
   "Şahsıma ait zırvalar...".
-  Open `_config.yml` to edit this text.
+
 
 # A list of keywords for your blog
 keywords:              []
