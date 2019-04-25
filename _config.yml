@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://m3t3h4n.github.com
+url:                   https://domain.tld
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -48,12 +48,18 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Programming
+    url:               /programming/
+  - title:             Web Applications
+    url:               /webapplications/
+  - title:             Linux
+    url:               /linux/
+  - title:             Hacking and Cyber Security
+    url:               /hacking/
   - title:             Hydejack
     url:               /hydejack/
   - title:             Hyde
     url:               /hyde/
-  - title:             Documentation
-    url:               /docs/
   - title:             About
     url:               /about/
 
@@ -126,6 +132,10 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
 
 # 3rd Party Integrations
@@ -133,11 +143,11 @@ defaults:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-139079280-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
+disqus:                disqus_VITwTQPoTP
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
