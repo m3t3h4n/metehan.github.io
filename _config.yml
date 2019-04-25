@@ -56,10 +56,6 @@ menu:
     url:               /linux/
   - title:             Hacking and Cyber Security
     url:               /hacking/
-  - title:             Hydejack
-    url:               /hydejack/
-  - title:             Hyde
-    url:               /hyde/
   - title:             About
     url:               /about/
 
