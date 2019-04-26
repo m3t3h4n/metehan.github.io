@@ -3,7 +3,7 @@ layout: post
 title: Introducing Hyde
 description: >
   Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
-author: author2
+author: author1
 noindex: true
 ---
 
