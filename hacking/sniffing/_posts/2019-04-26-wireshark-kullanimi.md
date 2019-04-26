@@ -1,5 +1,8 @@
 ---
-title: Wireshark ile internet ağı dinleme ve şifre çekme
+layout: post
+title: Wireshark kullanımı
+categories: [Hacking, Sniffing]
+tags: [Hacking, Sniffing]
 image: /assets/img/hacking/wireshark.jpg
 description: >
   Bu yazımda sizlere wireshark toolu ile local ağı dinlemeyi ve bizimle aynı ağa bağlı olan kullanıcıların şifrelerini görmeyi anlattım. 
