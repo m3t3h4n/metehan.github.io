@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                   https://m3t3h4n.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -24,15 +24,15 @@ title:                 Metehan Özdeniz
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  "Metehan Özdeniz".
+  Software developer - Hacking and Cyber Security - Desktop application develope 
 
 # A shorter description for the sidebar.
 tagline:               >
   "Şahsıma ait zırvalar..."
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Metehan Özdeniz,Metehan,Software Developer,Hacking,Cyber Security,Programmer]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -41,7 +41,7 @@ logo:                  /assets/icons/icon2.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                Methan Özdeniz
+  name:                Metehan Özdeniz
   email:               metehan_ozdeniz@outlook.com
   # Used by `jekyll-seo-tag`:
   twitter:             root_metehan
