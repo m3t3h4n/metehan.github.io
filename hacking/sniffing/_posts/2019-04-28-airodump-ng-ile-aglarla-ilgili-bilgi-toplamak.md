@@ -53,7 +53,7 @@ Böylece, sonradan bu dosyayı istediğimiz gibi analiz edip hedef ağın şifre
 İsterseniz bu parametreyi yazmadan da kullanabilirsiniz.
 
 ![803x500](/assets/img/hacking/20190428153019-803x500.png)
-Görüldüğü gibi aireplay-ng, tek bir ağa odaklanan bir dinleme yapmaya başladı.
+Görüldüğü gibi airodump-ng, tek bir ağa odaklanan bir dinleme yapmaya başladı.
 {:.figure}
 İlk satırdaki bilgiler bizim hedef aldığımız routerin bilgileri.
 Alt tarafda ise, routera kablosuz olarak bağlı olan clientlerin MAC adresleri yer alıyor. Burada edindiğimiz bilgiler güçlü ve işimize
@@ -77,3 +77,10 @@ Bu seçenekler arasında:
 * caffe-latte
 
 gibi diğer saldırı seçenekleride mevcut. Bu tür saldırıları ilerleyen yazılarımda sizlerle paylaşacağım.
+
+[airodump-ng frameworkünün videolu anlatımına buradan ulaşabilirsiniz..](https://youtu.be/0eZfGBbRkJY)
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/0eZfGBbRkJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Bir sonraki yazımda görüşmek üzere klasik kapatma sözleri falan filan..
