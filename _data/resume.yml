@@ -15,14 +15,14 @@ basics:
     My biggest motivation is Turkey's founder.
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    address: "Şehit Ömer Faydalı Caddesi"
+    postalCode: "77000"
+    city: "Yalova"
+    countryCode: "TR"
+    region: "Turkey"
   profiles:
     - network: "Twitter"
-      username: "RHendricksCEO"
+      username: "root_metehan"
       url: ""
     - network: "LinkedIn"
       username: "Richard Hendricks"

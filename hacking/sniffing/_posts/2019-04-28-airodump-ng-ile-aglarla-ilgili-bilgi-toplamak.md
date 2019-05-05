@@ -6,6 +6,7 @@ tags: [Hacking, Sniffing]
 image: /assets/img/hacking/airodump-ng.png
 description: >
   Merhabalar, bu yazımda sizlere ***airodump-ng*** frameworkü ile ağları incelemeyi ve belli bir ağa özel bilgi edinmeyi anlattım.
+comments: true
 ---
 
 Ağlara saldırmadan önce, bu ağların içinde neler olup bitiyor ilk önce bunları gözlemlememiz gerek. Bu olaya ***sniffing*** deniyor.
