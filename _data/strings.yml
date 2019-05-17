@@ -38,8 +38,8 @@ continue_reading:      >
 
 cookies_banner:
   text:                >
-    This site uses cookies.
-  okay:                Okay
+    Bu site cookie kullanıyor.
+  okay:                Tamam
 
 not_found:
   title:               '404: Page Not Found'

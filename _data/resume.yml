@@ -24,8 +24,8 @@ basics:
     - network: "Twitter"
       username: "root_metehan"
       url: ""
-    - network: "LinkedIn"
-      username: "Richard Hendricks"
+    - network: "Instagram"
+      username: "metehan.py"
       url: ""
 work:
   - company: "Pied Piper"
