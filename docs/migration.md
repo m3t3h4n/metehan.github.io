@@ -2,6 +2,7 @@
 description: >
   This documents shows how to upgrade Hydejack from previous versions (v5) in a step-by-step manner.
 hide_description: true
+noindex: true
 ---
 
 # Migration

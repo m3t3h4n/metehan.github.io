@@ -4,6 +4,7 @@ image: /assets/img/blog/hydejack-8.png
 description: >
   Hydejack 8 is the best version of Hydejack yet.
   It introduces Cover Pages, Offline Support, and soon... Dark Mode.
+noindex: true
 ---
 
 After a long wait, Hydejack 8 finally sees the day of its release. It makes Hydejack look more elegant (no more super bold headings) and introduces features that make your site more impressive to first time visitors, while loading faster for repeat visitors.
