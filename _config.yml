@@ -41,7 +41,7 @@ logo:                  /assets/icons/icon2.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                Methan Özdeniz
+  name:                Metehan Özdeniz
   email:               metehan_ozdeniz@outlook.com
   # Used by `jekyll-seo-tag`:
   twitter:             root_metehan
