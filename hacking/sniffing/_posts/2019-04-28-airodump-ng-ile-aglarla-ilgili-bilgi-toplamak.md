@@ -20,7 +20,7 @@ Monitor moda geçtikden sonra terminale şu komutu yazalım:
 ~~~bash
 root@m3t3h4n:~# airodump-ng <interface_adı>
 ~~~
-![800x714](/assets/img/hacking/20190428141021-800x714.png)
+![airodump-ng](/assets/img/hacking/20190428141021-800x714.png)
 Görüldüğü üzere airodump-ng frameworkü etrafdaki wireless ağlarını listelemeye başladı.
 {:.figure}
 Menzil içerisindeki tüm access pointlerin BSSID'lerini, güçlerini, işaretçi kare sayılarını, veri paketlerinin sayısını, kanal numaralarını, hızlarını, şifreleme yöntemlerini, şifre türlerini, kimlik doğrulama yöntemlerini ve son olarakda ESSID'lerini bize gösterdi.
@@ -53,7 +53,7 @@ root@m3t3h4n:~# airodump-ng --channel <channel> --bssid <bssid> --write <file_na
 Böylece, sonradan bu dosyayı istediğimiz gibi analiz edip hedef ağın şifresini kırabileceğiz. İlerleyen yazılarımda bu dosyayı nasıl kullanacağımızı anlatacağım.
 İsterseniz bu parametreyi yazmadan da kullanabilirsiniz.
 
-![803x500](/assets/img/hacking/20190428153019-803x500.png)
+![airodump-ng](/assets/img/hacking/20190428153019-803x500.png)
 Görüldüğü gibi airodump-ng, tek bir ağa odaklanan bir dinleme yapmaya başladı.
 {:.figure}
 İlk satırdaki bilgiler bizim hedef aldığımız routerin bilgileri.
@@ -66,7 +66,7 @@ airodump-ng frameworkünün yardım ekranını kullanarak diğer saldırı seçe
 ~~~bash
 root@m3t3h4n:~# airodump-ng --help
 ~~~
-![801x339](/assets/img/hacking/20190428161806-801x339.png)
+![airodump-ng](/assets/img/hacking/20190428161806-801x339.png)
 
 Bu seçenekler arasında:
 * deauth

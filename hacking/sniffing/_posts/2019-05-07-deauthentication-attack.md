@@ -15,7 +15,7 @@ paketi gönderir ve bağlantıyı sonlandırır.
 
 Eğer biz başkalarının bağlı olduğu herhangi bir wireless ağına deauthentication paketleri gönderirsek yada başkasının adına sanki o kullanıcıymış gibi deauthentication paketleri gönderirsek kurbanın bağlantısı sürekli olarak kopacaktır. 
 
-![deauth-packet](/assets/img/hacking/deauthentication-packet.png)
+![deauthentication packet](/assets/img/hacking/deauthentication-packet.png)
 Örnek bir deauthentication paketi
 {:.figure}
 
@@ -34,7 +34,7 @@ Saldırıya başlamadan önce, saldıracağım access pointi dinleyerek MAC adre
 ~~~bash
 root@m3t3h4n:~# airmon-ng start <interface>
 ~~~
-![720x464](/assets/img/hacking/20190428002604-720x464.png)
+![monitor mod](/assets/img/hacking/20190428002604-720x464.png)
 
 Monitor moda geçtikten sonra hedef access pointin MAC adresini öğrenmek için airodump-ng frameworkü ile etrafımdaki ağları dinlemeye başlıyorum.
 >airodump-ng frameworkü hakkında bilgi sahibi değilseniz [buradan]({{ '/hacking/sniffing/2019-04-28-airodump-ng-ile-aglarla-ilgili-bilgi-toplamak/' | relative_url }}) airodump-ng hakkında bilgi sahibi olabilirsiniz.
@@ -42,7 +42,7 @@ Monitor moda geçtikten sonra hedef access pointin MAC adresini öğrenmek için
 ~~~bash
 root@m3t3h4n:~# airodump-ng <interface>
 ~~~
-![800x714](/assets/img/hacking/20190428141021-800x714.png)
+![airodump-ng](/assets/img/hacking/20190428141021-800x714.png)
 airodump-ng çevremdeki access pointleri listelemeye başladı.
 {:.figure}
 
@@ -51,7 +51,7 @@ Hedef access pointimin MAC adresini öğrendikden sonra, ağdaki clientlerin MAC
 ~~~bash
 root@m3t3h4n:~# airodump-ng --channel <channel> --bssid <bssid> <interface>
 ~~~
-![803x500](/assets/img/hacking/20190428153019-803x500.png)
+![airodump-ng](/assets/img/hacking/20190428153019-803x500.png)
 Ağdaki clientlerin MAC adresi
 {:.figure}
 Gerekli bilgileri edindikden sonra saldırımıza başlayabiliriz. Ben kendi ağıma saldırı düzenleyeceğim. Kendi ağımı seçmemin nedeni konunun genel hatlarını daha kolay ve daha anlaşılır bir şekilde anlatabilmektir. Terminale şu komutu yazalım :
@@ -59,7 +59,7 @@ Gerekli bilgileri edindikden sonra saldırımıza başlayabiliriz. Ben kendi ağ
 ~~~bash
 root@m3t3h4n:~# aireplay-ng --deauth <packets> -a <access_point_MAC> <interface>
 ~~~
-![803x500](/assets/img/hacking/20190507162550-829x447.png)
+![aireplay-ng](/assets/img/hacking/20190507162550-829x447.png)
 aireplay-ng hedef access pointe ve ağdaki clientlerin hepsine ***deauth*** paketleri göndermeye başladı.
 {:.figure}
 Yukarıdaki komut sadece hedef access pointe bağlı bütün kullanıcıların bağlantılarını kesmeye yönelik bir ataktı. Eğer hedef access pointe bağlı belirli bir clientin bağlantısını kesmek istiyorsak terminale aşağıdaki komutu yazmalıyız;
@@ -67,7 +67,7 @@ Yukarıdaki komut sadece hedef access pointe bağlı bütün kullanıcıların b
 ~~~bash
 root@m3t3h4n:~# aireplay-ng --deauth <packets> -a <access_point_MAC> -c <client_MAC> <interface>
 ~~~
-![832-447](/assets/img/hacking/20190507164045-832x447.png)
+![aireplay-ng](/assets/img/hacking/20190507164045-832x447.png)
 
 aireplay-ng bu sefer hedef ağa ve ağdaki belirli bir cliente deauthentication paketleri göndermeye başladı.
 

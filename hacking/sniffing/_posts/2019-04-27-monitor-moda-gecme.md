@@ -14,7 +14,7 @@ Terminali açalım ve şu komutu yazalım:
 ~~~bash
 root@m3t3h4n:~# iwconfig
 ~~~
-![720x463](/assets/img/hacking/20190427233246-720x463.png)
+![iwconfig](/assets/img/hacking/20190427233246-720x463.png)
 Görüldüğü üzere benim interface'imin adı `wlan0`. Eğer harici bir wireless kartı kullanıyorsanız sizinki farklı olabilir.
 {:.figure}
 ## Monitor moda geçme
@@ -28,7 +28,7 @@ Monitor moda geçmek için ise terminale şu komutu yazalım
 ~~~bash
 root@m3t3h4n:~# airmon-ng start <interface_adı>
 ~~~
-![720x464](/assets/img/hacking/20190428002604-720x464.png)
+![monitor mod](/assets/img/hacking/20190428002604-720x464.png)
 Benim interface'imin adı `wlan0` olduğu için interface bölümüne `wlan0` yazdım. Eğer harici bir wireless kartı kullanıyorsanız sizinki farklı olabilir.
 {:.figure}
 Çıktı olarak wireless kartımın üzerinde çalışan işlemleri, wireless kartımın interface adını, wireles kartımın driver'ını ve chipset bilgilerini verdi.
@@ -45,7 +45,7 @@ root@m3t3h4n:~# iwconfig
 ~~~
 komutunu tekrar yazıyoruz.
 
-![720x464](/assets/img/hacking/20190428015206-722x464.png)
+![iwconfig](/assets/img/hacking/20190428015206-722x464.png)
 Gelen çıktıda wireless kartımın interface adının değiştiğini, yeni adının `wlan0mon` olduğunu ve `Mode:Monitor` olduğunu görüyoruz.
 {:.figure}
 
@@ -53,7 +53,7 @@ Monitor moddan managed moda geri geçmek için ise terminale şu komutu yazabili
 ~~~bash
 root@m3t3h4n:~# airmon-ng stop <yeni_interface_adı>
 ~~~
-![720x464](/assets/img/hacking/20190428015917-720x462.png)
+![managed mod](/assets/img/hacking/20190428015917-720x462.png)
 Gelen çıktıda managed modun tekrar aktif olduğunu ve monitor modun ise pasif olduğunu görüyoruz.
 {:.figure}
 
