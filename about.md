@@ -11,4 +11,4 @@ Hey there, My name is **Metehan Özdeniz**. I'm twenty years old. I'm studying c
 >'Choose my science one day if my words contradict science.'
 {:.lead}
 
-![imza](/assets/img/mustafa_kemal_imza.png)
+![imza](/assets/img/mustafa_kemal_imza.png){:.lead data-width="259" data-height="150"}
