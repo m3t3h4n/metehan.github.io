@@ -296,8 +296,8 @@ plugins:
 #   yandex:              <verification-id>
 
 # Used for Twitter cards
-# twitter:
-#   username:            <shortname>
+twitter:
+  username:            metehanozdeniz
 
 # Used for Facebook open graph
 # facebook:
@@ -306,11 +306,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                Metehan Özdeniz
+  links:
+  https://twitter.com/metehanozdeniz
+  https://github.com/m3t3h4n
 
 
 # Other Plugins
