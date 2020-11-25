@@ -51,7 +51,7 @@ not_found:
 error:
   title:               Hata
   message:             |
-    Maalesef yüklenme sırasında bir hata oluştu. <!--link-->.
+    Bir hata oluştu. <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------

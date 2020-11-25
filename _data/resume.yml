@@ -15,18 +15,18 @@ basics:
     My biggest motivation is Turkey's founder.
     Open `_data/resume.yml` to edit this text.
   location:
-    address: "Şehit Ömer Faydalı Caddesi"
-    postalCode: "77000"
-    city: "Yalova"
+    address: ""
+    postalCode: ""
+    city: "Konya"
     countryCode: "TR"
     region: "Turkey"
   profiles:
     - network: "Twitter"
-      username: "root_metehan"
-      url: ""
+      username: "metehanozdeniz"
+      url: "twitter.com"
     - network: "Instagram"
-      username: "metehan.py"
-      url: ""
+      username: "metehanozdeniz"
+      url: "instagram.com"
 work:
   - company: "Pied Piper"
     position: "CEO/President"
