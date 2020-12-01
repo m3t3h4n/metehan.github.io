@@ -308,9 +308,7 @@ twitter:
 # Used on index and about sites
 social:
   name:                Metehan Özdeniz
-  links:
-  https://twitter.com/metehanozdeniz
-  https://github.com/m3t3h4n
+  links: https://github.com/m3t3h4n
 
 
 # Other Plugins
